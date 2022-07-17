@@ -12,19 +12,33 @@
       }
 
       div {
+        margin: 0;
+        padding: 0;
         display: inline-block;
         background-color: blue;
-        font-size: 40px;
+        font-size: 30px;
+        /* medida absoluta */
+        width: 500px;
+        /* medida relativa sempre do elemento pai(neste ex. body) */
+        width: 50%;
+        /* tamanho da largura nossa janela */
+        width: 50vw;
+
+        /* Altura da nossa janela */
+        width: 50vh;
+
+        /* valor relativo tamanho da fonte 20px */
+        width: 1em;
+
+        /* pega o elemento raiz da página Html */
+        width: 1rem;
+        
+        /* tirar 20px da largura */
+        width: calc(100% - 20px);
       }
     </style>
   </head>
   <body>
-    <!-- elementos de linha é de texto -->
-    <span>abc</span>
-    <span>def</span>
-    <!-- elementos de coluna(bloco) -->
     <div>abc</div>
-    <div>def</div>
-
   </body>
 </html>
