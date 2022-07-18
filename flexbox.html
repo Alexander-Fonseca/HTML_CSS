@@ -1,12 +1,37 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+
+      .container{
+        display: flex;
+        background-color: blue;
+        padding: 8px;
+        height: 200px;
+        flex-direction: column;
+        justify-content: space-around;
+      }
+
+      .item{
+        background-color:  lightskyblue;
+        border: 2px solid black;
+      }
+
+    </style>
+  </head>
+  <body>
+    <!-- div.container + enter = Atalho criar div -->
+    <div class="container">
+      <!-- .item*5 criar 5 divs items ao mesmo tempo -->
+      <div class="item">1</div>
+      <div class="item">2</div>
+      <div class="item">3</div>
+      <div class="item">4</div>
+      <div class="item">5</div>
+    </div>
+  </body>
 </html>
